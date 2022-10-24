@@ -1,0 +1,75 @@
+<!--
+  @description       : 
+  @author            : SUDEER K
+  @group             : 
+  @last modified on  : 10-24-2022
+  @last modified by  : SUDEER K
+  Modifications Log
+  Ver   Date         Author     Modification
+  1.0   10-24-2022   SUDEER K   Initial Version
+-->
+<template>
+    <lightning-card>
+    <main>
+    <div class="content">
+        <div class="card-container">
+          <div class="card-face face-1">
+            <div class="top-part">
+              <div class="logo hide">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/nike-4-logo-png-transparent.png" alt="Nike Logo" />
+              </div>
+              <h2 class="hide">Nike Air Jordan</h2>
+              <div class="shoe-info">
+                <span class="shoe-new hide">New</span>
+                <span class="shoe-year hide">2022</span>
+              </div>
+            </div>
+
+            <div class="bottom-part">
+              <h2 class="shoe-price hide"><span>₹</span>15,499.00</h2>
+              <div class="right-arrow hide">
+                <img src="img/right-arrow.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card-face face-2">
+            <div class="top-part">
+              <div class="header">
+                <h3 class="heading hide">OG shoes</h3>
+                <a href="#" class="wish hide">
+                  <i class="far fa-heart"></i>
+                </a>
+              </div>
+              <ul class="features hide">
+                <li>Smooth & Fast.</li>
+                <li>Lightweight & Breathable Support.</li>
+                <li>Best For Running.</li>
+              </ul>
+              <div class="color-wrap hide">
+                <span>Color :</span>
+                <div class="colors">
+                  <span class="color blue"></span>
+                  <span class="color black active"></span>
+                  <span class="color white"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="buy-wrap">
+              <a href="#" class="buy hide">
+                Add to cart <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="shoe-image-wrapper">
+            <div class="shoe-img">
+              <img src={IMG} alt="Nike shoe" class="shoe" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+</lightning-card>
+</template>
